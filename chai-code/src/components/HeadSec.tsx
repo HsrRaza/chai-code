@@ -1,6 +1,6 @@
 const HeadSec = () => {
   return (
-    <div className="mt-10 w-full flex flex-col justify-center text-center p-2 h-auto items-center gap-6">
+    <div className="mt-20 w-full flex flex-col justify-center text-center p-2 h-auto items-center gap-6">
       <div className="py-4 w-[25%] flex justify-center items-center  border mx-auto text-center rounded-xl">
         <h3 className="sm:text-xl md:text-xl ">
           Trusted by 1.5M Code learners

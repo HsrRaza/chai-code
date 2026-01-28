@@ -7,7 +7,7 @@ interface VideoEmbedProps {
 
 const VideoEmbed: React.FC<VideoEmbedProps> = ({ embedUrl, title }) => {
   return (
-    <div className="video-responsive">
+    <div className="">
       <iframe
         width="760"
         height="420"
@@ -15,7 +15,7 @@ const VideoEmbed: React.FC<VideoEmbedProps> = ({ embedUrl, title }) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title={title}
-        className='rounded-xl'
+        className='rounded-xl '
       />
     </div>
   );
