@@ -4,13 +4,13 @@ const Navbar = () => {
   return (
     <div className="w-full h-auto ">
 
-        <div className="md:w-[65%] mx-auto flex justify-between items-center p-2 shadow-xl shadow-blue-200 rounded-xl  sticky ">
+        <div className=" flex justify-between items-center p-4 shadow-xl shadow-blue-200 rounded-xl  sticky ">
 
         {/* logo */}
         <div>
             <h2 className="md:text-4xl">ChaiCode</h2>
         </div>
-        <div className="flex gap-6">
+        <div className="flex gap-8 items-center">
             <h3 className="md:text-xl">Cohorts</h3>
             <h3 className="md:text-xl">Udemy</h3>
             <h3 className="md:text-xl">Docs</h3>
