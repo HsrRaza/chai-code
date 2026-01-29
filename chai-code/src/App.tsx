@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="h-full w-full bg-stone-200 ">
       <div className="md:w-[65%] mx-auto min-h-screen">
-        {/* <HeroPage /> */}
+        <HeroPage />
         <CohortPage />
       </div>
     </div>
