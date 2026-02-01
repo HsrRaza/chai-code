@@ -1,4 +1,4 @@
-export const LiveCards = () => {
+export const LiveCourseCards = () => {
   return (
     <div className=" grid grid-cols-2 md:grid-cols-3  ">
       <Cards />
@@ -9,11 +9,11 @@ export const LiveCards = () => {
   );
 };
 
-export default LiveCards;
+export default LiveCourseCards;
 
 const Cards = () => {
   return (
-    <div className="  flex  md:items-center   md:justify-center">
+    <div className="  flex  md:items-center   md:justify-center mt-10">
       <div className="w-60 sm:w-100 rounded-xl p-4  shadow-xl">
         <div className="w-full h-40 sm:h-60 bg-black rounded-xl"></div>
         <div className="p-2">

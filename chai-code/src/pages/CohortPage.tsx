@@ -1,12 +1,14 @@
-import LiveCards from "../components/cohorts/LiveCards"
+import { LiveCourseCards } from "../components/cohorts/LiveCourseCards"
 import Text from "../components/cohorts/Text"
+import UdemyCourseCard from "../components/cohorts/UdemyCourseCard"
 
 
 const CohortPage = () => {
   return (
     <div>
         <Text/>
-        <LiveCards/>
+        <LiveCourseCards/>
+        <UdemyCourseCard/>
     </div>
   )
 }

@@ -2,9 +2,9 @@
 
 const Navbar = () => {
   return (
-    <div className="w-full h-auto ">
+    <div className="w-full h-auto top-0 sticky bg-white/40 backdrop-blur-md">
 
-        <div className=" flex justify-between items-center p-4 shadow-xl shadow-blue-200 rounded-xl  sticky ">
+        <div className=" flex justify-between  items-center p-4 shadow-xl shadow-blue-200 rounded-xl ">
 
         {/* logo */}
         <div>
